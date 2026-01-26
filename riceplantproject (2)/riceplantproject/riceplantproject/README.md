@@ -1,4 +1,4 @@
-# Rice Leaf Disease Detection with AI Explainability (Grad-CAM)
+# Rice Leaf Disease Detection 
 
 A deep learning-powered web application designed to help farmers and researchers identify rice plant diseases from leaf images. The system uses a fine-tuned **EfficientNetB3** architecture and provides visual justifications for its predictions using **Grad-CAM** heatmaps.
 
