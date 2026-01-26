@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h2>Table With Border</h2>
+
+<p>Use the CSS border property to add a border to the table.</p>
+
+<!-- <table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Phone</th>
+    <th>Email</th> 
+    <th>Message</th>
+    <th>Service</th>
+    <th>Delete</th>
+  </tr>
+
+  <tr>
+    {% for i in a %}
+    <td>{{i.name}}</td>
+    <td>{{i.phone}}</td>
+    <td>{{i.email}}</td>
+    <td>{{i.message}}</td>
+    <td>{{i.service}}</td>
+    <td><a href="/feedremove/{{i.id}}/">Delete</a></td>
+    {% endfor %}
+  </tr>
+</table> -->
+
+<table style="width:100%">
+  <tr>
+    <th>Name</th>
+    <th>Phone</th>
+    <th>Email</th> 
+    <th>Message</th>
+    <th>Service</th>
+    <th>Delete</th>
+  </tr>
+
+  {% for i in a %}
+  <tr>
+    <td>{{i.name}}</td>
+    <td>{{i.phone}}</td>
+    <td>{{i.email}}</td>
+    <td>{{i.message}}</td>
+    <td>{{i.service}}</td>
+    <td><a href="/feedremove/{{i.id}}/">Delete</a></td>
+  </tr>
+  {% endfor %}
+</table>
+
+
+</body>
+</html>
+

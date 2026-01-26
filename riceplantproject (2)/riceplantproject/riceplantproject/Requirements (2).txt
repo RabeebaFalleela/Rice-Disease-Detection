@@ -1,0 +1,14 @@
+# Web Framework
+django>=5.0
+
+# Deep Learning
+tensorflow>=2.15.0
+keras>=2.15.0
+
+# Computer Vision & Image Processing
+opencv-python
+numpy
+Pillow
+
+# Network & Utilities
+requests

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+       <style>  
+   
+/* Style for form container */
+.form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Style for form elements */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style for select element */
+select.form-control {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .form-group {
+    margin-bottom: 10px;
+  }
+}
+
+ </style>
+
+
+<body>
+<form method="post" action="/feedback/" enctype="multipart/form-data">
+  {% csrf_token %} 
+    <div class="form-row">
+      <div class="form-group col">
+        <input type="text" name="name" class="form-control" placeholder="Your Name" required/>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-lg-6">
+        <input type="text" name="phone" class="form-control" placeholder="Phone Number" required />
+      </div>
+      <div class="form-group col-lg-6" >
+        <select name="service" id="service" class="form-control wide" required>
+          <option value="service">Select Service</option>
+          <option value="service 1">Service 1</option>
+          <option value="service 2">Service 2</option>
+         
+        </select>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col">
+        <input type="email" name="email" class="form-control" placeholder="Email" required />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col">
+        <input type="text" name="message" class="message-box form-control" placeholder="Message"  required/>
+      </div>
+    </div>
+    <input type="submit" value="SEND">
+  </form>
+</div>
+</div>
+</div>
+</div>
+</body>
+</head>
+</html>
