@@ -57,12 +57,12 @@ The following diagnostic reports demonstrate the model's ability to localize the
 
 ### 1. Brown Spot Detection
 The heatmap focuses on the small, circular necrotic lesions spread across the leaf surface.
-![Brown Spot Diagnosis](screenshots/brown_spot_report.jpg)
+![Brown Spot Diagnosis](Screenshots/brown_spot_report.jpg)
 
 ### 2. Leaf Scald Detection
 The model successfully identifies the characteristic large, banded lesions at the leaf tips.
-![Leaf Scald Diagnosis](screenshots/leaf_scald_report.jpg)
+![Leaf Scald Diagnosis](Screenshots/leaf_scald_report.jpg)
 
 ### 3. Sheath Blight Detection
 Activation is concentrated on the irregular "snake-skin" patterns found on the rice plant.
-![Sheath Blight Diagnosis](screenshots/sheath_blight_report.jpg)
+![Sheath Blight Diagnosis](Screenshots/sheath_blight_report.jpg)
