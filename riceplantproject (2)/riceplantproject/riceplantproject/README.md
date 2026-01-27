@@ -28,7 +28,7 @@ pip install -r requirements.txt
 3. Download the Model
 Due to file size limits, the trained model (final_model.h5) is not included in this repository.
 
-Download the model from: ![here](https://drive.google.com/file/d/1p88MIq4b7-rYAUdYaWSPHuNq90phe6MY/view?usp=drive_link)
+Download the model from: [here](https://drive.google.com/file/d/1p88MIq4b7-rYAUdYaWSPHuNq90phe6MY/view?usp=drive_link)
 
 
 4. Database Setup
@@ -64,4 +64,4 @@ The model successfully identifies the characteristic large, banded lesions at th
 
 ### 3. Sheath Blight Detection
 Activation is concentrated on the irregular "snake-skin" patterns found on the rice plant.
-![img alt](Screenshots/sheath_blight.png](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/d57539ff55fcee62d80e80a876b95232cda5a32b/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshot%202026-01-25%20234921.png)
+![sheath blight](Screenshots/sheath_blight.png)
