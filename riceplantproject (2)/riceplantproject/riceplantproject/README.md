@@ -64,4 +64,4 @@ The model successfully identifies the characteristic large, banded lesions at th
 
 ### 3. Sheath Blight Detection
 Activation is concentrated on the irregular "snake-skin" patterns found on the rice plant.
-![img alt]([Screenshots/sheath_blight.png](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/d57539ff55fcee62d80e80a876b95232cda5a32b/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshot%202026-01-25%20234921.png))
+![img alt](Screenshots/sheath_blight.png](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/d57539ff55fcee62d80e80a876b95232cda5a32b/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshot%202026-01-25%20234921.png)
