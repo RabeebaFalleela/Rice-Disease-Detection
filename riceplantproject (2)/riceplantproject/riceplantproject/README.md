@@ -28,7 +28,7 @@ pip install -r requirements.txt
 3. Download the Model
 Due to file size limits, the trained model (final_model.h5) is not included in this repository.
 
-Download the model from: [here](https://drive.google.com/file/d/1p88MIq4b7-rYAUdYaWSPHuNq90phe6MY/view?usp=drive_link)
+Download the model from: ![here](https://drive.google.com/file/d/1p88MIq4b7-rYAUdYaWSPHuNq90phe6MY/view?usp=drive_link)
 
 
 4. Database Setup
@@ -57,7 +57,7 @@ The following diagnostic reports demonstrate the model's ability to localize the
 
 ### 1. Brown Spot Detection
 The heatmap focuses on the small, circular necrotic lesions spread across the leaf surface.
-![Brown spot](Screenshots/brown_spot.png)
+![Brown spot](/Screenshots/brown_spot.png)
 ### 2. Leaf Scald Detection
 The model successfully identifies the characteristic large, banded lesions at the leaf tips.
 ![Leaf Scald Diagnosis](/Screenshots/leaf_scald.png)
