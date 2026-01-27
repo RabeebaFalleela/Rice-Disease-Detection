@@ -60,7 +60,7 @@ The heatmap focuses on the small, circular necrotic lesions spread across the le
 <img width="1311" height="825" alt="Image" src="https://github.com/user-attachments/assets/27bfbbf6-9a2e-4d76-84bf-e01f42b971cb" />
 ### 2. Leaf Scald Detection
 The model successfully identifies the characteristic large, banded lesions at the leaf tips.
-![Leaf Scald Diagnosis](Screenshots/leaf_scald.png)
+![Leaf Scald Diagnosis](/Screenshots/leaf_scald.png)
 
 ### 3. Sheath Blight Detection
 Activation is concentrated on the irregular "snake-skin" patterns found on the rice plant.
