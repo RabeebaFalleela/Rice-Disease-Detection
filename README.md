@@ -57,7 +57,7 @@ The following diagnostic reports demonstrate the model's ability to localize the
 
 ### 1. Brown Spot Detection
 The heatmap focuses on the small, circular necrotic lesions spread across the leaf surface.
-![Brown Spot Diagnosis](riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/brown_spot.png)
+![Brown Spot Diagnosis]([riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/brown_spot.png](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/b96a7d474627d1891f7a91940eea2308517c8679/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/brown_spot.png))
 
 ### 2. Leaf Scald Detection
 The model successfully identifies the characteristic large, banded lesions at the leaf tips.
