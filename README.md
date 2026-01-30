@@ -20,49 +20,59 @@ A deep learning-powered web application designed to help farmers and researchers
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+git clone https://github.com/RabeebaFalleela/Rice-Disease-Detection.git
 cd riceplantproject
-2. Install dependencies
-Bash
+```
+### 2. Install dependencies
+```bash
 pip install -r requirements.txt
-3. Download the Model
+```
+
+### 3. Download the Model
 Due to file size limits, the trained model (final_model.h5) is not included in this repository.
 
-Download the model from: https://drive.google.com/file/d/1p88MIq4b7-rYAUdYaWSPHuNq90phe6MY/view?usp=drive_link
+Download the model from: [here](https://drive.google.com/file/d/1p88MIq4b7-rYAUdYaWSPHuNq90phe6MY/view?usp=drive_link).
+
+Place the model inside your Django project folder (same directory as manage.py).
 
 
-4. Database Setup
-Bash
+### 4. Database Setup
+```Bash
 python manage.py makemigrations
 python manage.py migrate
-5. Run the Server
-Bash
+```
+
+### 5. Run the Server
+```Bash
 python manage.py runserver
 Access the app at http://127.0.0.1:8000/
+```
 
-How It Works
-Input: User uploads a photo of a rice leaf.
+##  How It Works
+* Input: User uploads a photo of a rice leaf.
 
-Processing: The image is resized to 300x300 and normalized for EfficientNetB3.
+* Processing: The image is resized to 300x300 and normalized for EfficientNetB3.
 
-Inference: The model predicts the disease class.
+* Inference: The model predicts the disease class.
 
-Heatmap: The get_gradcam function looks at the gradients of the last convolutional layer (top_activation) to see where the model "looked."
+* Heatmap: The get_gradcam function looks at the gradients of the last convolutional layer (top_activation) to see where the model "looked."
 
-Result: The user sees the diagnosis and a side-by-side comparison of the original leaf and the heatmap.
+* Result: The user sees the diagnosis and a side-by-side comparison of the original leaf and the heatmap.
 
 ##  Visualization & Results
 
 The following diagnostic reports demonstrate the model's ability to localize the infected areas using **Grad-CAM** (Gradient-weighted Class Activation Mapping).
-
 ### 1. Brown Spot Detection
 The heatmap focuses on the small, circular necrotic lesions spread across the leaf surface.
-![Brown Spot](https://raw.githubusercontent.com/RabeebaFalleela/Rice-Disease-Detection/main/Screenshots/brown_spot.png)
+
+![Brown Spot](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/a9ace492590c99a0165c8a8cc1c1062c5d897937/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/brown_spot.png)
 
 ### 2. Leaf Scald Detection
 The model successfully identifies the characteristic large, banded lesions at the leaf tips.
-![Leaf Scald](https://raw.githubusercontent.com/RabeebaFalleela/Rice-Disease-Detection/main/Screenshots/leaf_scald.png)
+
+![Leaf Scald](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/15616ac6e9c70525db7980cd284881a5f3bf6681/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/leaf_scald.png)
 
 ### 3. Sheath Blight Detection
 Activation is concentrated on the irregular "snake-skin" patterns found on the rice plant.
-![Sheath Blight](https://raw.githubusercontent.com/RabeebaFalleela/Rice-Disease-Detection/main/Screenshots/sheath_blight.png)
+
+![Sheath Blight](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/332e1d29fca1b36c42d9c94dd8397802e367d3f7/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/sheath_blight.png)
