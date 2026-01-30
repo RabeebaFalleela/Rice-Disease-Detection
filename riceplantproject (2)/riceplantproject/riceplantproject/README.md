@@ -31,7 +31,8 @@ pip install -r requirements.txt
 ### 3. Download the Model
 Due to file size limits, the trained model (final_model.h5) is not included in this repository.
 
-Download the model from: [here](https://drive.google.com/file/d/1p88MIq4b7-rYAUdYaWSPHuNq90phe6MY/view?usp=drive_link)
+Download the model from: [here](https://drive.google.com/file/d/1p88MIq4b7-rYAUdYaWSPHuNq90phe6MY/view?usp=drive_link).
+
 Place the model inside your Django project folder (same directory as manage.py).
 
 
@@ -48,15 +49,15 @@ Access the app at http://127.0.0.1:8000/
 ```
 
 ##  How It Works
-Input: User uploads a photo of a rice leaf.
+* Input: User uploads a photo of a rice leaf.
 
-Processing: The image is resized to 300x300 and normalized for EfficientNetB3.
+* Processing: The image is resized to 300x300 and normalized for EfficientNetB3.
 
-Inference: The model predicts the disease class.
+* Inference: The model predicts the disease class.
 
-Heatmap: The get_gradcam function looks at the gradients of the last convolutional layer (top_activation) to see where the model "looked."
+* Heatmap: The get_gradcam function looks at the gradients of the last convolutional layer (top_activation) to see where the model "looked."
 
-Result: The user sees the diagnosis and a side-by-side comparison of the original leaf and the heatmap.
+* Result: The user sees the diagnosis and a side-by-side comparison of the original leaf and the heatmap.
 
 ##  Visualization & Results
 
