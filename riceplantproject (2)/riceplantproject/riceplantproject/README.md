@@ -64,4 +64,4 @@ The following diagnostic reports demonstrate the model's ability to localize the
 
 ![Brown Spot](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/a9ace492590c99a0165c8a8cc1c1062c5d897937/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/brown_spot.png)
 ![Leaf Scald](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/15616ac6e9c70525db7980cd284881a5f3bf6681/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/leaf_scald.png)
-![Sheath Blight](https://raw.githubusercontent.com/RabeebaFalleela/riceplantproject/main/riceplantproject%20(2)/riceplantproject/Screenshots/sheath_blight.png)
+![Sheath Blight](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/332e1d29fca1b36c42d9c94dd8397802e367d3f7/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/sheath_blight.png)
