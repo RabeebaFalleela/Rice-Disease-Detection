@@ -62,6 +62,6 @@ Result: The user sees the diagnosis and a side-by-side comparison of the origina
 
 The following diagnostic reports demonstrate the model's ability to localize the infected areas using **Grad-CAM** (Gradient-weighted Class Activation Mapping).
 
-![Brown Spot][https://raw.githubusercontent.com/RabeebaFalleela/riceplantproject/main/riceplantproject%20(2)/riceplantproject/Screenshots/brown_spot.png](https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/main/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/brown_spot.png)
+![Brown Spot]https://github.com/RabeebaFalleela/Rice-Disease-Detection/blob/a9ace492590c99a0165c8a8cc1c1062c5d897937/riceplantproject%20(2)/riceplantproject/riceplantproject/Screenshots/brown_spot.png
 ![Leaf Scald](https://raw.githubusercontent.com/RabeebaFalleela/riceplantproject/main/riceplantproject%20(2)/riceplantproject/Screenshots/leaf_scald.png)
 ![Sheath Blight](https://raw.githubusercontent.com/RabeebaFalleela/riceplantproject/main/riceplantproject%20(2)/riceplantproject/Screenshots/sheath_blight.png)
