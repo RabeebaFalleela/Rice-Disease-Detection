@@ -21,7 +21,8 @@ A deep learning-powered web application designed to help farmers and researchers
 ### 1. Clone the repository
 ```bash
 git clone [https://github.com/RabeebaFalleela/Rice-Disease-Detection](https://github.com/RabeebaFalleela/Rice-Disease-Detection.git)
-```bash
+```
+
 cd riceplantproject
 2. Install dependencies
 Bash
