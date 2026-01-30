@@ -23,25 +23,25 @@ A deep learning-powered web application designed to help farmers and researchers
 git clone https://github.com/RabeebaFalleela/Rice-Disease-Detection.git
 cd riceplantproject
 ```
-###2. Install dependencies
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-###3. Download the Model
+### 3. Download the Model
 Due to file size limits, the trained model (final_model.h5) is not included in this repository.
 
 Download the model from: [here](https://drive.google.com/file/d/1p88MIq4b7-rYAUdYaWSPHuNq90phe6MY/view?usp=drive_link)
 Place the model inside your Django project folder (same directory as manage.py).
 
 
-###4. Database Setup
+### 4. Database Setup
 ```Bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-###5. Run the Server
+### 5. Run the Server
 ```Bash
 python manage.py runserver
 Access the app at http://127.0.0.1:8000/
